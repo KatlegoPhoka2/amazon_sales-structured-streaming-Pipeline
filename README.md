@@ -1,4 +1,4 @@
-# amazon_sales structured streaming Pipeline using Databicks
+# amazon_sales structured streaming Pipeline
 
 ## 📌 Overview
 This project implements a streaming data pipeline using Databricks, PySpark, and Delta Lake following the medallion architecture (Bronze, Silver, Gold). It ingests CSV files from a cloud storage, cleans and transforms the data, builds a star schema, and exposes aggregated data for business intelligence in Power BI. Orchestration is handled by Databricks Jobs to automate the entire workflow.
