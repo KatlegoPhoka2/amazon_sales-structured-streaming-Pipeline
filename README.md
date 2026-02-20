@@ -43,3 +43,4 @@ This project implements a streaming data pipeline using Databricks, PySpark, and
 5. **BI Reporting**  
    - Power BI connects directly to Gold Delta tables via Databricks SQL endpoint or JDBC/ODBC.  
    - Dashboards visualise key metrics (e.g., sales trends, customer insights).
+![image](https://github.com/KatlegoPhoka2/amazon_sales-structured-streaming-Pipeline/blob/e9f3114786cb1319f8d297fab8ba880f4bad2859/PowerBI2.png)
