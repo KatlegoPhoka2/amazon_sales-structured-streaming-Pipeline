@@ -39,7 +39,7 @@ This project implements a streaming data pipeline using Databricks, PySpark, and
 4. **Orchestration with Databricks Jobs**  
    - A Databricks Job runs the notebooks in sequence, handling dependencies and retries.  
    - Job is triggered on a schedule or via file arrival events (if using Auto Loader or cloud triggers).
-
+![image](https://github.com/KatlegoPhoka2/amazon_sales-structured-streaming-Pipeline/blob/84ac1e1d1d2766c5eaa443b8d5cf0f49c2db584f/pipeline%20job%20graph.png)
 5. **BI Reporting**  
    - Power BI connects directly to Gold Delta tables via Databricks SQL endpoint or JDBC/ODBC.  
    - Dashboards visualise key metrics (e.g., sales trends, customer insights).
